@@ -46,4 +46,4 @@ Run the main function in Code.gs and check your email drafts.
 <li>The duration of time for each entry is rounded to 5 minutes by default. Although, this can be changed on line 44 in Code.gs with the fourth parameter in the function updateLineItems().</li>
 </ul>
 
-If you have questions contact me <a href="www.kierenfunk.com/#contact">here</a>
+If you have questions contact me [here](www.kierenfunk.com/#contact)
