@@ -1,5 +1,5 @@
 # gdrive-invoicing
-A google apps script that pulls data from timecamp and creates monthly invoices
+Automated google drive monthly invoicing with data from timecamp.
 
 <h1>How to use:</h1>
 
@@ -10,13 +10,13 @@ Create a folder in google drive, call it 'Invoicing' or whatever you want.
 Create a google apps script file and add Code.gs and Functions.gs to it.
 
 <h3>Step 3.</h3>
-Copy the following invoice template: <https://docs.google.com/document/d/10zXZZ5blCgTCtTRL2MiCvJgvz_bfE6Rf9dabUEijJP0/edit?usp=sharing> to your new google drive folder. <br>
+Copy the following invoice template: https://docs.google.com/document/d/10zXZZ5blCgTCtTRL2MiCvJgvz_bfE6Rf9dabUEijJP0/edit?usp=sharing to your new google drive folder. <br>
 Feel free to edit the basic information including the currency in the line items table, although be careful when changing the page layout or formatting, you may break the script!<br>
 Get the ID of this document and update the ID in Code.gs.<br>
 (to find the ID look in the url)
 
 <h3>Step 4.</h3>
-Copy the following spreadsheet: <https://docs.google.com/spreadsheets/d/10zssylAt-J5zU_ZSDB994Qr1SYv4dcukd0QT9kJsMPg/edit?usp=sharing> to your new google drive folder.<br>
+Copy the following spreadsheet: https://docs.google.com/spreadsheets/d/10zssylAt-J5zU_ZSDB994Qr1SYv4dcukd0QT9kJsMPg/edit?usp=sharing to your new google drive folder.<br>
 Inside you may edit the sheet called 'Contacts'. Feel free to add any contacts you have in here.<br>
 Get the ID of this spreadsheet and update the ID in Code.gs.<br>
 (to find the ID look in the url)
@@ -24,13 +24,13 @@ Get the ID of this spreadsheet and update the ID in Code.gs.<br>
 <h3>Step 5.</h3>
 Create a sub folder called 'Invoices' or whatever you like, this folder will hold all of your invoices.<br>
 Get the ID of this folder and update the ID in Code.gs.<br>
-(to find the ID look in the url)<br>
+(to find the ID look in the url)
 
 <h3>Step 6.</h3>
 In Timecamp make sure you have an API key, update the API key in Code.gs.<br>
 When creating tasks, make sure that the task name matches the contact name in the 'Contacts' sheet of the Invoice Information spreadsheet.<br>
 Also make sure that the entity you will be creating invoices for is a parent task. AKA not a sub task.<br>
-Also make sure that time entries for this task are billable by default.<br>
+Also make sure that time entries for this task are billable by default.
 
 <h3>Step 7.</h3>
 Run the main function in Code.gs and check your email drafts.
