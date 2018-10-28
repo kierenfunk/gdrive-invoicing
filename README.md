@@ -45,3 +45,5 @@ Run the main function in Code.gs and check your email drafts.
 <li>It will concatenate entries into one line item where the entries have the same description and were done on the same day.</li>
 <li>The duration of time for each entry is rounded to 5 minutes by default. Although, this can be changed on line 44 in Code.gs with the fourth parameter in the function updateLineItems().</li>
 </ul>
+
+If you have questions contact me <a href="www.kierenfunk.com/#contact">here</a>
