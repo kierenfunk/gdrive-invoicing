@@ -10,15 +10,15 @@ Create a folder in google drive, call it 'Invoicing' or whatever you want.
 Create a google apps script file and add Code.gs and Functions.gs to it.
 
 <h3>Step 3.</h3>
-Copy this [Invoice Template](https://docs.google.com/document/d/e/2PACX-1vQEJGtMpsdgTKUYbsgzrmUHzlVUtwGhn5zX7hm_aLDvnOuhRkfkOfC51WJIIgzQy07teLTUoU6wz7qB/pub) to your new google drive folder. <br>
+Copy the following invoice template: <https://docs.google.com/document/d/10zXZZ5blCgTCtTRL2MiCvJgvz_bfE6Rf9dabUEijJP0/edit?usp=sharing> to your new google drive folder. <br>
 Feel free to edit the basic information including the currency in the line items table, although be careful when changing the page layout or formatting, you may break the script!<br>
-Get the ID of this document and update the ID in Code.gs.
+Get the ID of this document and update the ID in Code.gs.<br>
 (to find the ID look in the url)
 
 <h3>Step 4.</h3>
-Add this [spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRNbhIKgla7bJgPkq7LH3HyVFT1-zUtY6NOOHwr_eMVhCgc5HWh3K53ia_Z8sRfW37mbAowMcpUnxMj/pubhtml) to your google drive folder.
-Inside you may edit the sheet called 'Contacts'. Feel free to add any contacts you have in here.
-Get the ID of this spreadsheet and update the ID in Code.gs.
+Copy the following spreadsheet: <https://docs.google.com/spreadsheets/d/10zssylAt-J5zU_ZSDB994Qr1SYv4dcukd0QT9kJsMPg/edit?usp=sharing> to your new google drive folder.<br>
+Inside you may edit the sheet called 'Contacts'. Feel free to add any contacts you have in here.<br>
+Get the ID of this spreadsheet and update the ID in Code.gs.<br>
 (to find the ID look in the url)
 
 <h3>Step 5.</h3>
@@ -35,7 +35,7 @@ Also make sure that time entries for this task are billable by default.<br>
 <h3>Step 7.</h3>
 Run the main function in Code.gs and check your email drafts.
 
-<h3>Step 7.</h3>
+<h3>Step 8.</h3>
 Set a trigger for the 'main' function in Code.gs for the first day of every month. 
 
 <h2>Extra Important Information:</h2>
