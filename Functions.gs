@@ -50,7 +50,7 @@ function getTimeEntries(key){
   // Function that retrieves all entries for billable clients in the previous month
   
   // get date of the last day of last month
-  //var d = new Date();
+  var d = new Date();
   d.setDate(0);
   var toDate = getDateString(d);
   
