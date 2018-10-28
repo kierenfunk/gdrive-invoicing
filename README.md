@@ -10,33 +10,33 @@ Create a folder in google drive, call it 'Invoicing' or whatever you want.
 Create a google apps script file and add Code.gs and Functions.gs to it.
 
 <h3>Step 3.</h3>
-Add the following template to your google drive folder. 
-
-Feel free to edit the basic information, although be careful when changing the page layout or formatting, you may break the script!
-Get the ID of this document and add the ID to Code.gs.
+Copy this [Invoice Template](https://docs.google.com/document/d/e/2PACX-1vQEJGtMpsdgTKUYbsgzrmUHzlVUtwGhn5zX7hm_aLDvnOuhRkfkOfC51WJIIgzQy07teLTUoU6wz7qB/pub) to your new google drive folder. <br>
+Feel free to edit the basic information including the currency in the line items table, although be careful when changing the page layout or formatting, you may break the script!<br>
+Get the ID of this document and update the ID in Code.gs.
 (to find the ID look in the url)
 
 <h3>Step 4.</h3>
-Add the following spreadsheet to your google drive folder.
+Add this [spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRNbhIKgla7bJgPkq7LH3HyVFT1-zUtY6NOOHwr_eMVhCgc5HWh3K53ia_Z8sRfW37mbAowMcpUnxMj/pubhtml) to your google drive folder.
 Inside you may edit the sheet called 'Contacts'. Feel free to add any contacts you have in here.
-Get the ID of this spreadsheet and adjust the variable in the google apps script file.
+Get the ID of this spreadsheet and update the ID in Code.gs.
 (to find the ID look in the url)
 
 <h3>Step 5.</h3>
-Create a sub folder called 'Invoices' or whatever you like, this folder will hold all of your invoices.
-Get the ID of this folder and adjust the variable in the google apps script file.
+Create a sub folder called 'Invoices' or whatever you like, this folder will hold all of your invoices.<br>
+Get the ID of this folder and update the ID in Code.gs.<br>
+(to find the ID look in the url)<br>
 
 <h3>Step 6.</h3>
-In Timecamp make sure you have an API key, adjust the variable in the google apps script file.
-When creating tasks, make sure that the task name matches the contact name in the 'Contacts' sheet of the Invoice Information spreadsheet.
-Also make sure that the entity you will be creating invoices for is a parent task. AKA not a sub task.
-Also make sure that time entries for this task are billable by default.
+In Timecamp make sure you have an API key, update the API key in Code.gs.<br>
+When creating tasks, make sure that the task name matches the contact name in the 'Contacts' sheet of the Invoice Information spreadsheet.<br>
+Also make sure that the entity you will be creating invoices for is a parent task. AKA not a sub task.<br>
+Also make sure that time entries for this task are billable by default.<br>
 
 <h3>Step 7.</h3>
-Set a trigger to the 'main' function in Code.gs for the first day on every month. 
-
-<h3>Step 8.</h3>
 Run the main function in Code.gs and check your email drafts.
+
+<h3>Step 7.</h3>
+Set a trigger for the 'main' function in Code.gs for the first day of every month. 
 
 <h2>Extra Important Information:</h2>
 <ul>
@@ -46,4 +46,4 @@ Run the main function in Code.gs and check your email drafts.
 <li>The duration of time for each entry is rounded to 5 minutes by default. Although, this can be changed on line 44 in Code.gs with the fourth parameter in the function updateLineItems().</li>
 </ul>
 
-If you have questions contact me [here](www.kierenfunk.com/#contact)
+If you have questions or suggestions on how to improve this script, contact me [here](http://www.kierenfunk.com/#contact)
